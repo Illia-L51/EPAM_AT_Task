@@ -56,20 +56,6 @@ namespace EPAM_AT_Task
             Assert.CompareElementText(searchResultsPage.GetElementTitle(0), text);
         }
 
-
-        //[TestInitialize()]
-        //public void Start()
-        //{
-
-        //    driver.Navigate().GoToUrl("https://www.bbc.com");
-        //    driver.Manage().Window.Maximize();
-        //}
-
-        //[TestCleanup()]
-        //public void End()
-        //{
-        //      //driver.Quit();
-        //}
     }
 
    
